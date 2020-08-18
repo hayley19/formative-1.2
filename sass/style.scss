@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+// nav section
+.nav-bar{
+  background: red;
+  width:100%;
+  height: 100px;
+}
+
+.top-nav-list{
+  color: white;
+  text-align: center;
+  display: inline;
+  padding: 10px;
+}
+// nav section ends
+
+
+.banner-image{
+  width: 100%;
+  height: auto;
+}
+
+.about-container{
+  // width: ;
+  // height: ;
+  text-align: center;
+}
+
+.h1{
+  text-align: center;
+  color: red;
+}
