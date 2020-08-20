@@ -1,11 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-body {
-  font-family: 'Poppins', sans-serif; }
-
 .nav-bar {
   background: red;
   width: 100%;
@@ -15,17 +7,56 @@ body {
   color: white;
   text-align: center;
   display: inline;
-  padding: 10px; }
+  padding: 0 10px;
+  line-height: 100px; }
+
+.cart-wrapper {
+  float: right;
+  height: 100px; }
+
+.cart-image {
+  height: 100%; }
+
+.logo-container {
+  float: left;
+  height: 100px; }
+
+.logo-image {
+  height: 100%; }
+
+.navlistcontainer {
+  float: left;
+  margin-left: 30%; }
 
 .banner-image {
   width: 100%;
   height: auto; }
 
+.banner-image-container {
+  width: 100%;
+  height: 100%; }
+
 .about-container {
   text-align: center; }
 
-.h1 {
+.Welcome-header {
   text-align: center;
   color: red; }
+
+.book-button {
+  border: 1px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Poppins', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
