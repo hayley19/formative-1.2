@@ -29,9 +29,23 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-
+font-size: 50px;
+border-radius: 4px;
 }
+
+.book-button:hover {
+color: white;
+}
+
 
 .book-button-container{
 
+}
+
+.footer{
+  block:red;
+}
+.social{
+  width: 30px;
+  height: 30px;
 }

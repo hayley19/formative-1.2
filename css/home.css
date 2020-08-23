@@ -1,0 +1,36 @@
+.banner-image {
+  width: 100%;
+  height: auto; }
+
+.banner-image-container {
+  width: 100%;
+  height: 100%; }
+
+.about-container {
+  text-align: center; }
+
+.Welcome-header {
+  text-align: center;
+  color: red; }
+
+.book-button {
+  border: 1px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  border-radius: 4px; }
+
+.book-button:hover {
+  color: white; }
+
+.footer {
+  block: red; }
+
+.social {
+  width: 30px;
+  height: 30px; }
+
+/*# sourceMappingURL=home.css.map */
