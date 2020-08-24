@@ -12,14 +12,20 @@
 }
 
 .about-container{
-  // width: ;
-  // height: ;
-  text-align: center;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  background: pink;
 }
 
 .Welcome-header{
   text-align: center;
   color: red;
+}
+
+.book-button-container{
+
 }
 
 .book-button{
@@ -35,17 +41,4 @@ border-radius: 4px;
 
 .book-button:hover {
 color: white;
-}
-
-
-.book-button-container{
-
-}
-
-.footer{
-  block:red;
-}
-.social{
-  width: 30px;
-  height: 30px;
 }

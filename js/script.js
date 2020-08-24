@@ -3,9 +3,9 @@
 $(document).ready(function(){
 
   $('.booking-page').hide();
-  $('.home-page').show();
-  $('.contact-page').hide();
-  $('.menu-page').hide();
+  // $('.home-page').show();
+  // $('.contact-page').hide();
+  // $('.menu-page').hide();
 
 
 

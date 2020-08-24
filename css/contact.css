@@ -1,8 +1,19 @@
-contact-container {
-  background-color: red; }
+.contact-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  background: pink; }
 
 .contact-header {
   color: red; }
+
+.contact-icon {
+  width: 30px;
+  height: 30px; }
+
+.contact-info {
+  float: right; }
 
 .map {
   float: right; }
