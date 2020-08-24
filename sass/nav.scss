@@ -10,6 +10,11 @@
   display: inline;
   padding: 0 10px;
   line-height: 100px;
+  cursor: pointer;
+}
+
+.top-nav-list:hover {
+color: white;
 }
 
 .cart-wrapper{

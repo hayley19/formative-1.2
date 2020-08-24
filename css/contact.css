@@ -1,3 +1,10 @@
+contact-container {
+  background-color: red; }
 
+.contact-header {
+  color: red; }
+
+.map {
+  float: right; }
 
 /*# sourceMappingURL=contact.css.map */
