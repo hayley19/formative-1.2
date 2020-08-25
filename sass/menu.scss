@@ -1,9 +1,44 @@
-menu-container{
-
-}
-
 
 menu-header{
   text-align: center;
 color: red;
+}
+// @import 'mixin';
+
+.menuPage {
+  // @include w-h(90%, 130vh);
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 25% 25% 25% 25%;
+  margin: 2.5% 0 2.5% 10%;
+}
+
+.list {
+  text-transform: capitalize;
+  font-size: 1rem;
+  line-height: 1.9rem;
+  letter-spacing: .5px;
+}
+
+.listContainer {
+  list-style: none;
+  margin: 2%;
+}
+
+.listHeader {
+  color: #ed1c24;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: .5rem;
+}
+@media screen and (max-width: 590px) {
+  .menuPage {
+      // @include w-h(90%, 130vh);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    // margin: 2.5% 0 2.5% 10%;
+  }
 }

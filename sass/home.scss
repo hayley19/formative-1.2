@@ -4,6 +4,7 @@
   // position: absolute;
   // z-index: -1;
   // bottom: 0;
+  object-fit: cover;
 }
 
 .banner-image-container{
@@ -16,12 +17,12 @@
   width: 500px;
   height: 500px;
   margin: 100px auto;
-  background: pink;
+  background: #e5dcdc;
 }
 
 .Welcome-header{
   text-align: center;
-  color: red;
+  color: #ed1c24;
 }
 
 .book-button-container{
@@ -36,9 +37,11 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 font-size: 50px;
+font-weight: bold;
 border-radius: 4px;
 }
 
+
 .book-button:hover {
-color: white;
+color: #e5dcdc;
 }

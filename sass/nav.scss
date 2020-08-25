@@ -5,28 +5,28 @@
 }
 
 .top-nav-list{
-  color: white;
+  color: #ffff;
   text-align: center;
   display: inline;
-  padding: 0 10px;
+  padding: 0 50px;
   line-height: 100px;
   cursor: pointer;
 
 }
 
 .top-nav-list:hover {
-color: white;
+color: #e5dcdc;
 }
 
 .cart-wrapper{
-  float: right;
-  height: 100px;
-  padding: 5, 5, 5px;
+  align: center;
+  display: inline;
+  padding: 0 50px;
+  line-height: 100px;
+  cursor: pointer;
 }
 .cart-image{
   height: 50%
-  // float: right;
-
 }
 
 .logo-container{
